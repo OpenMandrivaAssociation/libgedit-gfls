@@ -2,7 +2,7 @@
 %define major 0
 
 %define libname %mklibname gedit-gfls
-%define girname	%mklibname gedit-gfls
+%define girname	%mklibname gedit-gfls-gir
 %define devname %mklibname -d gedit-gfls
 
 
