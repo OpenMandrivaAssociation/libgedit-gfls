@@ -20,7 +20,7 @@ BuildRequires:  pkgconfig(gtk+-3.0)
 A module dedicated to file loading and saving.
 
 %prep
-%autosetup -n libgedit-tepl-%{version} -p1
+%autosetup -p1
 
 %build
 %meson  -Dgtk_doc=true
