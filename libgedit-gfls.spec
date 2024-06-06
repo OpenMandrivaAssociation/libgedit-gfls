@@ -1,7 +1,7 @@
 %define url_ver	%(echo %{version}|cut -d. -f1,2)
 %define major 0
 
-%define libname %mklibname gedit-gflsx
+%define libname %mklibname gedit-gfls
 %define girname	%mklibname gedit-gfls
 %define devname %mklibname -d gedit-gfls
 
@@ -9,7 +9,7 @@
 Name:           libgedit-gfls
 Version:        0.1.0
 Release:        1
-Summary:        Text editor product line
+Summary:        A module dedicated to file loading and saving.
 Group:		      System/Libraries
 License:        LGPLv3
 URL:            https://github.com/gedit-technology/libgedit-gfls/
