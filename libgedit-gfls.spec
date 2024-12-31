@@ -61,6 +61,8 @@ developing applications that use %{name}.
 %install
 %meson_install
 
+%find_lang %{name}-1 %{?no_lang_C}
+
 %files -n %{devname}
 %doc %{_datadir}/gtk-doc/html/libgedit-gfls-1/
 %{_libdir}/pkgconfig/libgedit-gfls-1.pc
@@ -71,5 +73,5 @@ developing applications that use %{name}.
 %files -n %{girname}
 %{_libdir}/girepository-1.0/Gfls-1.typelib
 
-%files -n %{libname}
+%files -n %{libname} -f %{name}-1.lang
 %{_libdir}/libgedit-gfls-1.so.%{major}
