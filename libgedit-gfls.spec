@@ -7,12 +7,12 @@
 
 
 Name:           libgedit-gfls
-Version:        0.3.0
-Release:        2
+Version:        0.4.0
+Release:        1
 Summary:        A module dedicated to file loading and saving.
 Group:		      System/Libraries
 License:        LGPLv3
-URL:            https://github.com/gedit-technology/libgedit-gfls/
+URL:            https://gitlab.gnome.org/World/gedit/libgedit-gfls/
 #Source0:        https://github.com/gedit-technology/libgedit-gfls/releases/download/%{version}/libgedit-gfls-%{version}.tar.xz
 Source0:        https://gitlab.gnome.org/World/gedit/libgedit-gfls/-/archive/%{version}/libgedit-gfls-%{version}.tar.bz2
 
