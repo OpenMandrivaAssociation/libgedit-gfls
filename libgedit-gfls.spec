@@ -7,7 +7,7 @@
 
 
 Name:           libgedit-gfls
-Version:        0.4.2
+Version:        0.5.0
 Release:        1
 Summary:        A module dedicated to file loading and saving.
 Group:		      System/Libraries
